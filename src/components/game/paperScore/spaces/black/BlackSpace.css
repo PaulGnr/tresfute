@@ -1,0 +1,11 @@
+.BlackSpace {
+  grid-area: BlackSpace;
+  display: grid;
+  grid-template-areas: 
+  'ChoosenDice Rounds'
+  'ChoosenDice BonusRepeat'
+  'ChoosenDice BonusPlusOne';
+  grid-template-columns: 15% 82.5%;
+  grid-template-rows: repeat(3, 32%);
+  grid-gap: 2% 2.5%
+}

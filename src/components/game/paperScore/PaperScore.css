@@ -1,0 +1,16 @@
+.PaperScore
+{
+  background-color: black;
+  color: white;
+  width: 71vh;
+  height: 100vh;
+}
+
+@media screen and (max-aspect-ratio: 12/9)
+{
+  .PaperScore
+  {
+    width: 100vw;
+    height: 141vw;
+  }
+}

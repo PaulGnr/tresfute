@@ -1,0 +1,13 @@
+.GreenSpace
+{
+  border: 3px solid rgb(96,175,83);
+  box-shadow: 0px 0px 5px 2px rgb(96,175,83), inset 0px 0px 5px 2px rgb(96,175,83);
+  border-radius: 10px;
+  background-color: rgb(15, 56, 14);
+  grid-area: GreenSpace;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5% 2%;
+}

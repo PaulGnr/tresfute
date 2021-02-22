@@ -1,0 +1,13 @@
+.YellowSpace
+{
+  border: 3px solid rgb(230,203,79);
+  box-shadow: 0px 0px 5px 2px rgb(230,203,79), inset 0px 0px 5px 2px rgb(230,203,79);
+  border-radius: 10px;
+  background-color: rgb(56, 55, 14);
+  grid-area: YellowSpace;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 19% 19% 19% 19% 24%;
+  grid-template-rows: 21% 21% 21% 21% 24%;
+  z-index: 1;
+}

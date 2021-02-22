@@ -1,0 +1,18 @@
+.Spaces
+{
+  display: grid;
+  grid-template-rows: 33% 32% 11% 9% 9%;
+  grid-template-columns: 49% 49%;
+  grid-template-areas:
+  "BlackSpace BlackSpace"
+  "YellowSpace BlueSpace"
+  "GreenSpace GreenSpace"
+  "OrangeSpace OrangeSpace"
+  "VioletSpace VioletSpace";
+  gap: 1.5%;
+  height: 97%;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: -fill-available;
+  padding: 2%;
+}
